@@ -25,15 +25,13 @@ static void customPattern(int n){
     }
 }
 
-static boolean customPrint(boolean flag, String pnt){
+static void customPrint(boolean flag, String pnt){
 
     if(flag){
         System.out.print(pnt);
     }else{
         System.out.print(" ");
-    }
-
-    return flag=false;
+    } 
     
 }
 
